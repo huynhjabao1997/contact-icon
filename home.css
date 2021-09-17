@@ -1,0 +1,41 @@
+#StyleButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+.iconImg {
+  border-radius: 60%;
+  width: 50px;
+}
+
+#iconImg:hover {
+  opacity: 0.5;
+}
+
+#iconFacebook:hover {
+  opacity: 0.5;
+  display: block;
+}
+
+#iconMap:hover {
+  opacity: 0.5;
+  display: block;
+}
+
+#iconCall:hover {
+  opacity: 0.5;
+  display: block;
+}
+
+#iconZalo:hover {
+  opacity: 0.5;
+  display: block;
+}
+
+#StyleButton > a {
+  margin: 5px;
+}
